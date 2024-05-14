@@ -66,7 +66,7 @@ const EditTour = () => {
             headers: {
                'content-type':'application/json'
             },
-            credentials: 'include',
+            
             body: JSON.stringify(tour)
          })
          const result = await res.json()
